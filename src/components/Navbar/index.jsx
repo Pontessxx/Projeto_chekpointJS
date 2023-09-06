@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link, Route, Routes, BrowserRouter } from 'react-router-dom'
+import Products from '../../pages/Products'
+import Home from '../../pages/Home'
+import Sobre from '../../pages/Sobre'
 
 const Navbar = () => {
   return (
@@ -14,20 +17,17 @@ const Navbar = () => {
                         <Link to="/about">Sobre</Link>
                     </li>
                     <li>
-                        <Link to="/contato">Contato</Link>
+                        <Link to="/produtos">Produtos</Link>
                     </li>
                 </ul>
             </nav>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contato" element={<Contato />} />
+                <Route path="/about" element={<Sobre />} />
+                <Route path="/produtos" element={<Products />} />
             </Routes>
         </BrowserRouter>
     </>
   )
 }
-const Home = () => <h1>Página Inicial</h1>;
-const About = () => <h1>Sobre</h1>;
-const Contato = () => <h1>Contato</h1>;
 export default Navbar
