@@ -1,0 +1,18 @@
+
+footer{
+    background-color: #2c2a2a;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+   
+    list-style: none;
+}
+footer ul li{
+    margin: 10px;
+}
