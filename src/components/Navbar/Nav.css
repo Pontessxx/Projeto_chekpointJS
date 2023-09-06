@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    /* --font-titu: 'Roboto', sans-serif; */
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 0;
+    font-family: var(--font-fam);
+    z-index: 999;
+    transition: all 0.3s ease;
+    background-color: #2c2a2a;
+}
+
+.navbar .logo{
+    color: #ccc;
+    font-size: 35px;
+    font-weight: 500;
+    transition: background .3s ease;
+    left: 0;
+}
+.navbar .logo span{
+    color: #0d8d14;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #0d8d14;
+}
