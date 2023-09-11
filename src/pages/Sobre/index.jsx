@@ -3,7 +3,7 @@ import React from 'react'
 const Sobre = () => {
   return (
     <>
-     {/*  <section>
+      <section>
             
             <figure>
                 <img src="https://picsum.photos/601/200" />
@@ -18,8 +18,7 @@ const Sobre = () => {
                 </div>
             </div>
             
-        </section> */}
-        <div>Vini</div>
+        </section>
     </>
   )
 }
