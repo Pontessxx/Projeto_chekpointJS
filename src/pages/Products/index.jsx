@@ -3,7 +3,7 @@ import React from 'react'
 const Products = () => {
   return (
     <>
-        {/* <section>
+        <section>
             
             <div className="conteudo">
                 <h2 className='title'>Pordutos</h2>
@@ -37,9 +37,7 @@ const Products = () => {
                     </figcaption>
                 </figure>
             </div>
-        </section> */}
-
-        <div>CAPRI</div>
+        </section>
     </>
   )
 }
