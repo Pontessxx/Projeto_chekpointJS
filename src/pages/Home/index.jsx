@@ -3,7 +3,7 @@ import './style.css'
 const Home = () => {
   return (
     <>
-        {/* <section>
+         <section>
             
             <figure>
                 <img src="https://picsum.photos/650/200" />
@@ -18,8 +18,8 @@ const Home = () => {
                 </div>
             </div>
             
-        </section> */}
-        <div>GK</div>
+        </section> 
+
     </>
   )
 }
